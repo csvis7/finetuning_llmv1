@@ -1,13 +1,11 @@
-Finetuning 270M parameters model :
+**Finetuning 270M parameters model :**
 
 (https://csvis-foodextract-v1.hf.space/)
 
-**%%writefile demos/FoodExtract/README.md
+%%writefile demos/FoodExtract/README.md
+
 ---
 title: FoodExtract Fine-tuned LLM Structued Data Extractor
-emoji: 📝➡️🍟
-colorFrom: green
-colorTo: blue
 sdk: gradio
 app_file: app.py
 pinned: false
@@ -40,10 +38,14 @@ tags_dict = {'np': 'nutrition_panel',
 ```
 """
 
+
 %%writefile demos/FoodExtract/requirements.txt
+```
 transformers
 gradio
 torch
 accelerate
+
+```
 
 **
